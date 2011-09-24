@@ -1,0 +1,145 @@
+教育背景 
+2009.9 – 今		复旦大学，计算机软件与理论，硕士研究生
+2005.9 - 2009.7       	复旦大学，软件工程，本科  （GPA：3.47/4.0，年级前10%）
+       	 		爱尔兰都柏林大学，计算机，本科 （联合培养，双学位）
+
+研究经历 
+2011.7 – 2011.10	访问学生，莱斯大学（Rice University）
+- 项目描述: 用MapReduce和HBase集群来执行ZPL程序。ZPL是一种多维数组语言，主要用于并行机上的科学计算。
+- 当前进展: 已有初步设计，正在开发实现中
+
+2010.7 – 2011.7		分布式非SQL存储系统性能研究
+- 项目描述: 使用真实的应用程序研究HBase的性能
+- 当前进展: HBase把相互独立的put操作串行化，增加了同步锁等待时间。我们正在设计和实现一种并行化的处理方式。
+
+2008.3 – 2011.8		多核集群上MapReduce系统的性能研究（与Intel的合作研究项目）
+- 项目描述: 尝试最大化地挖掘多核机器在执行MapReduce任务时的计算能力。
+- 阶段结果: 我们设计并实现了一个层次化的MapReduce计算框架Azwraith，相比目前主流的MapReduce实现Hadoop有1.4到3.5倍的性能提升。
+- 当前进展: 提出一种邦联式的模型来解决MapReduce的调度影响执行性能的问题。
+
+2009.9 – 2009.11	分析Hadoop的IO特征并研究在Hadoop和HBase集群中应用SSD的可能性
+- 阶段结果: Hadoop中同时执行的子任务实际上综合产生的是类似随机的磁盘访问特征。使用SSD作为磁盘缓存或中间结果存储能很好地提升Hadoop性能。
+
+2009.3 – 2009.4  研究共享内存并行程序在MapReduce集群中执行的性能
+- 阶段结果: 共享内存并行程序的频繁通信带来巨大的性能开销，我们在APPT’09的一篇论文中提出了一些优化方案。
+ 
+2008.3  加入并行处理研究所，系统研究组
+
+发表论文 
+2011	Zhiwei Xiao, Haibo Chen, Binyu Zang and Bo Huang. A Hierarchical Approach to Maximizing MapReduce Efficiency. In the Proceedings of the 20th International Conference on Parallel Architectures and Compilation Techniques (PACT’11).
+2011	Chao Zhang, Chenning Xie, Zhiwei Xiao, and Haibo Chen. Evaluating the Performance and Scalability of MapReduce Applications on X10. In the Proceedings of the 9th International Symposium on Advanced Parallel Processing Technologies.
+2009	Shengkai Zhu, Zhiwei Xiao, Haibo Chen, Rong Chen, Weihua Zhang and Binyu Zang. Evaluating SPLASH-2 Applications Using MapReduce. In the Proceedings of the 8th International Symposium on Advanced Parallel Processing Technologies.
+
+项目经历 
+2007.7 - 2007.9   参与开发 Diebold（迪堡）公司项目追踪管理系统 
+- 项目描述：本系统是为该公司软件（ATM系统软件）部门开发的一套项目流程管理系统，主要用于控制项目进度、项目人员调度及管理项目信息，并具有非常灵活的用户可定制性，该系统同时具备与公司Consult部门的信息接口，为公司整个软件版本发布工作提供了极大的便利。该系统采用B/S架构，运用MVC三层架构设计，开发团队主要成员3人。
+- 开发环境：.Net Framework 2.0 + IIS 5.0 + SQL Server 2000
+- 开发工具：Visual Studio 2005
+- 职责及收获：参与部分设计过程，负责协调管理开发小组，及系统开发调试工作。这是我第一个从初期开始就作为主要开发人员并负责协调管理的项目，之前积累的经验也得以应用，在实践中开始思考系统设计、项目管理相关的许多问题，对软件工程有了进一步的理解。
+
+2007.7 - 2007.8    参与开发 电贷网(www.diandai.com) 
+- 项目描述：电贷网是一个在线个人金融信用产品比较及信用卡申请平台。该网站采用B/S架构，运用symfony框架进行开发，开发团队主要成员3人。
+- 开发环境：PHP 5.2 + Apache 2.2.3 + MySQL 5.0
+- 开发工具：Eclipse 3.2
+- 职责及收获：参与网站初中期编码工作，负责设计和开发“电贷辞典”。 电贷网是一个很有激情的创业团队，在这里不只是技术，还了解了创业初期的业务开展、营销、管理以及它们与技术开发如何相互协调和支持。
+
+2007.4 – 2007.12   参与 复旦大学信息办学生团队  
+- 复旦大学信息办学生团队是校信息办公室下属的学生开发团队，主要参与校内信息化建设，并定期就各类技术话题组织讨论学习, 团队主要成员6人。
+- 已完成校附属医院网站项目
+- 项目描述：本项目旨在为校医院提供一个对外展示、新闻发布、疾病介绍和预防等重要工作的平台。该平台采用B/S架构，运用struts框架进行开发。
+- 开发环境：JDK6.0 + Tomcat 6.0 + MySQL 5.0
+- 开发工具：Eclipse 3.2
+- 职责及收获：参与需求分析及系统设计，完成主体开发和调试工作。通过指导老师的引导和团队内部的讨论学习扩充了知识面，同时进一步积累开发经验，并在项目后期协助项目管理。
+
+2007.1 - 2007.3   参与开发 长三角旅游集散系统电子商务平台 
+- 项目描述：长三角旅游集散系统电子商务平台是由复旦大学软件学院电子商务实验室与上海旅游集散中心合作，围绕长三角旅游服务相关单位需求开发的一个资源集中管理调度平台。该系统能够满足多个经营单位各自独立营运管理的需要，如自主制定旅游线路和旅游计划、自主管理运营，并支持多经营单位之间的商务合作和信息共享。该平台采用B/S架构，运用MVC三层架构设计，开发团队主要成员5人。
+- 开发环境：.Net Framework 2.0 + IIS 5.0 + SQL Server 2000
+- 开发工具：Visual Studio 2005
+- 职责及收获：负责平台主体开发及后期调试维护，是开发团队技术主力之一。这是我第一次参与团队合作的项目开发，也是第一次系统地接触、熟悉软件工程的各个流程；同时学习能力也得到进一步锻炼（大概1周时间就完成从对.Net一无所知到对C#和Asp.net控件的基本了解过程）。
+
+获奖情况 
+复旦大学研究生一等奖学金 (2010).
+复旦大学并行处理研究生杰出贡献奖 (2009).
+复旦大学研究生新生入学一等奖学金 (2009).
+复旦大学本科生二等奖学金 (2006, 2007, 2008).
+
+助教工作 
+2011 春季	计算机系统工程
+2010 秋季	人工智能
+2009 秋季	编译原理
+2008 秋季	操作系统
+
+Education 
+09/2009 – present	M.S. in Computer Software Theory, Fudan University
+09/2005 – 09/2009   	B.E. in Software Engineering, Fudan University. (GPA：3.47/4.0, Top 10%)
+	  	    	B.E. in Computer Science, University College Dublin, Ireland. (Joint-degree)
+
+Research Experience 
+07/2011 – 10/2011	Visiting student, Rice University
+- Project Description: Using MapReduce and HBase cluster to execute ZPL program. ZPL is an array language for scientific computation on parallel machines.
+- Current Status: Under implementation according to our initial design
+
+07/2010 – 07/2011   Distributed NoSQL storage performance
+-  Project Description: We evaluated HBase with some real applications, and then studied the HBase implementation to seek for optimization or better design.
+-  Current Status: HBase falsely sequetializes irrelative put operations and thus causes long lock acquiring time. We’re attempting to parallelize these operations.
+
+03/2008 – 08/2011   MapReduce performance on cluster with multi-core nodes (Cooperated project with Intel)
+-  Project Description: We studied the MapReduce performance on multi-core cluster. We tried to exploit the power of multi-core machines to maximize MapReduce efficiency.
+-  Results: The poor performance of Hadoop mainly comes from object creation, large memory footprint, naive data structure and lack of good multithreading support. We have implemented a prototype system Azwraith, which outperforms the original MapReduce implementation from 1.4X to 3.5X.
+-  Current Status: Identify the interrupt handling issues in Hadoop. Propose a federated schedule model for MapReduce.
+
+09/2009 – 11/2009  Worked on understanding the characteristics of IO in Hadoop and surveyed applying SSD to Hadoop and HBase
+-  Results: Mixed workloads incur a random disk access pattern in Hadoop. Using SSD as a disk cache and intermediate storage would gain a good speedup.
+
+03/2009 – 04/2009  Evaluated parallel shared-memory applications with MapReduce cluster
+-  Results: Frequent communications in this kind of applications cause significant overhead on cluster. We proposed some extensions to the MapReduce model in our APPT’09 paper.
+
+03/2008   Joined the system group at Parallel Processing Institute (PPI)
+
+Publications 
+2011	Zhiwei Xiao, Haibo Chen, Binyu Zang and Bo Huang. A Hierarchical Approach to Maximizing MapReduce Efficiency. In the Proceedings of the 20th International Conference on Parallel Architectures and Compilation Techniques (PACT’11).
+2011	Chao Zhang, Chenning Xie, Zhiwei Xiao, and Haibo Chen. Evaluating the Performance and Scalability of MapReduce Applications on X10. In the Proceedings of the 9th International Symposium on Advanced Parallel Processing Technologies.
+2009	Shengkai Zhu, Zhiwei Xiao, Haibo Chen, Rong Chen, Weihua Zhang and Binyu Zang. Evaluating SPLASH-2 Applications Using MapReduce. In the Proceedings of the 8th International Symposium on Advanced Parallel Processing Technologies.
+
+Practice Experience 
+07/2007 – 09/2007   
+Diebold Project Tracer System   Group Manager/ Software Engineer
+-  Project Description: Diebold Project Tracer System is a platform to control project progress, schedule staff and manager project-information, with an interface for the Consult Department. The biggest advantage of the system lies in that it’s very flexible and can be customized. It provides a great convenience for the software public of Diebold China.
+-  Environment:  .Net Framework 2.0 + IIS 5.0 + SQL Server 2000
+-  Development Tools:  Visual Studio 2005
+-  Responsibility: Assist design, manager the development team, and take charge of the development and debug in a 3-person team. 
+
+07/2007 – 08/2007	   
+DianDai website (www.diandai.com) 	Software Engineer
+-  Project Description: DianDai is a platform for individual to compare kinds of finance credit products and apply online. 
+-  Environment:  PHP 5.2 + Apache 2.2.3 + MySQL 5.0
+-  Development Tools:  Eclipse 3.2
+-  Responsibility: Take charge of the development in a 3-person team and the design & development of the “DianDai Dictionary”.
+
+04/2007 – 12/2007
+Work for the Student Team of Information Office of Fudan University (STIO) 
+-  The informationization of Fudan University is the main responsibility of STIO. STIO also organize discussion and study on some technical topic regularly. Now a project of the website of the Affiliated Hospital of Fudan University has been completed.
+-  Project Description: This project is to provide a platform of both external display and disease prevention and cure education for the hospital.
+-  Environment:  JDK6.0 + Tomcat 6.0 + MySQL 5.0
+-  Development Tools:  Eclipse 3.2
+-  Responsibility:  Requirements analysis, system design, development and testing. Explore some technical detail that is new to the team.
+
+01/2007 – 03/2007   
+China SBC Ticket System (CTS) 		Software Engineer
+-  Project Description: CTS is a platform to implement centralized management and control of resources for the tourism corporations around Yangtze River Delta. In the near coming, CTS will be widely applied to the tourism industry around Yangtze River Delta.
+-  Environment:  .Net Framework 2.0 + IIS 5.0 + SQL Server 2000
+-  Development Tools:  Visual Studio 2005
+-  Responsibility: Take charge of the development and debug in a 5-person team. 
+
+Awards 
+First Grade Scholarship for graduate students (2010).
+Outstanding Contribution Award at PPI (2009).
+First Grade Scholarship for Excellent Freshman (2009).
+Second Grade Scholarship (2006, 2007, 2008).
+
+TA Work 
+2011 Spring	Computer System Engineering
+2010 Autumn	Artificial Intelligence
+2009 Autumn	Compiler
+2008 Autumn	Operating System
+
